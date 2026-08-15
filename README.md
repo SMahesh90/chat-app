@@ -29,7 +29,13 @@ ChatSphere is a full-stack messaging application that goes beyond typical CRUD p
 
 **Tools:** Eclipse (Spring Tools 4), VS Code, Postman, Git/GitHub
 
+## 🏗️ Architecture
 
+<img width="1515" height="716" alt="image" src="https://github.com/user-attachments/assets/72e3a9b8-9c82-451e-9b54-63fa3ad9ab79" />
+
+**Message send sequence:**
+
+<img width="1600" height="586" alt="image" src="https://github.com/user-attachments/assets/28a7561e-dd10-487d-a1b0-495e3661b7b9" />
 
 ## 📂 Project Structure
  
