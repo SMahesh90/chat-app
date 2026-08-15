@@ -137,11 +137,6 @@ Manually tested throughout development via:
 - Two concurrent browser sessions (regular + incognito) to verify real-time bidirectional messaging, typing indicators, presence updates, and reconnection behavior.
 No automated test suite exists yet. Recommended future setup: JUnit 5 + Mockito (`spring-boot-starter-test`) for the backend, and Vitest + React Testing Library for the frontend.
  
-## 📸 Screenshots / Demo
-`[TODO: Add screenshots of Login, Chat window with messages/typing indicator/read receipts, and Friends page here before publishing]`
- 
-`[TODO: Add live demo link once deployed]`
- 
 ## ⚡ Performance & Design Decisions
 - **STOMP over raw WebSocket** was chosen for built-in subscription/destination routing, avoiding the need to hand-roll a message-routing protocol.
 - **JWT passed as a WebSocket query parameter** (rather than a header) because the WebSocket handshake in browsers cannot carry custom headers — this is a standard, necessary pattern for authenticating WebSocket connections.
