@@ -29,3 +29,30 @@ ChatSphere is a full-stack messaging application that goes beyond typical CRUD p
 
 **Tools:** Eclipse (Spring Tools 4), VS Code, Postman, Git/GitHub
 
+
+
+## 📂 Project Structure
+ 
+```
+chat-app/
+├── chat-app-backend/
+│   ├── src/main/java/com/chatapp/backend/
+│   │   ├── config/          # WebSocket + presence event configuration
+│   │   ├── controller/      # REST + WebSocket controllers
+│   │   ├── dto/              # Request/response objects
+│   │   ├── entity/          # JPA entities (User, Friend, Message, UserStatus)
+│   │   ├── repository/      # Spring Data JPA repositories
+│   │   └── security/        # JWT, handshake auth, Spring Security config
+│   ├── src/main/resources/application.properties
+│   └── pom.xml
+└── chat-app-frontend/
+    ├── src/
+    │   ├── api/              # Axios config + STOMP WebSocket client
+    │   ├── pages/            # Login, Register, Chat, Friends
+    │   ├── styles/           # Shared theme tokens
+    │   └── App.jsx           # Routing + protected routes
+    ├── package.json
+    └── vite.config.js
+```
+
+
