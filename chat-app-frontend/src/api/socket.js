@@ -5,7 +5,7 @@ export function createStompClient(onMessageReceived, onStatusChange, onTypingRec
     const token = localStorage.getItem('token');
 
     const client = new Client({
-        webSocketFactory: () => new SockJS(`http://localhost:8090/ws?token=${token}`),
+        webSocketFactory: () => new SockJS(`https://chat-app-production-2787.up.railway.app/ws?token=${token}`),
         reconnectDelay: 5000,
         onConnect: () => {
             console.log('DEBUG: onConnect fired');
