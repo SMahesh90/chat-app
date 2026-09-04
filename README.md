@@ -1,6 +1,6 @@
 # ChatSphere  
 
-Live Link : https://luminous-flow-production-d83c.up.railway.app/chat
+Live Link : https://luminous-flow-production-d83c.up.railway.app
 
 Real-time one-on-one chat application built with Spring Boot, WebSocket (STOMP/SockJS), React, and MySQL.
 
