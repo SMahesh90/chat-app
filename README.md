@@ -129,14 +129,6 @@ Base path: `/api`. 🔒 = requires `Authorization: Bearer <token>`.
 | Subscribe | `/user/queue/typing` | Receive typing events |
 | Subscribe | `/topic/status` | Receive presence broadcasts |
  
-**Example — Login:**
-```json
-POST /api/auth/login
-{ "username": "testuser", "password": "password123" }
-```
-```json
-{ "token": "eyJhbGciOiJIUzI1NiJ9...", "username": "testuser" }
-```
  
 ## 🔑 Authentication & Authorization
 - Passwords hashed with `BCryptPasswordEncoder` — never stored in plaintext.
