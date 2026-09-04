@@ -45,9 +45,11 @@ ChatSphere is a full-stack messaging application that goes beyond typical CRUD p
 
 <img width="586" height="507" alt="image" src="https://github.com/user-attachments/assets/ce3a5b4b-922d-4e51-a991-9ab887639da2" />
 
-## Chat Page 
+## Chat Page and manage Friends
 
-<img width="1891" height="910" alt="image" src="https://github.com/user-attachments/assets/6b8b23ec-280f-44b9-8521-dff0371d5073" />
+<img width="1846" height="906" alt="image" src="https://github.com/user-attachments/assets/da99776d-f051-4fc2-bcdc-6170d7d08a52" />
+ 
+<img width="1891" height="910" alt="image" src="https://github.com/user-attachments/assets/6e2915e9-2beb-4efb-b749-c9306ac5e7bf" />
 
 ## 📂 Project Structure
  
