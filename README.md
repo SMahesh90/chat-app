@@ -40,6 +40,15 @@ ChatSphere is a full-stack messaging application that goes beyond typical CRUD p
 
 <img width="1600" height="586" alt="image" src="https://github.com/user-attachments/assets/28a7561e-dd10-487d-a1b0-495e3661b7b9" />
 
+## Login and Register
+<img width="650" height="523" alt="image" src="https://github.com/user-attachments/assets/620a84fa-7350-4347-9c19-2ea1fe0a74a5" />
+
+<img width="586" height="507" alt="image" src="https://github.com/user-attachments/assets/ce3a5b4b-922d-4e51-a991-9ab887639da2" />
+
+## Chat Page 
+
+<img width="1891" height="910" alt="image" src="https://github.com/user-attachments/assets/6b8b23ec-280f-44b9-8521-dff0371d5073" />
+
 ## 📂 Project Structure
  
 ```
@@ -155,7 +164,7 @@ No automated test suite exists yet. Recommended future setup: JUnit 5 + Mockito 
 - No message editing or deletion.
 - Presence broadcasts (`/topic/status`) are global rather than scoped to a user's friends.
 - No rate limiting on authentication endpoints.
-- Not yet deployed to a live/public environment.
+
 ## 🔮 Future Enhancements
 **Short-term:** Group chat, message edit/delete, environment-variable config, server-side request validation, automated tests.
  
