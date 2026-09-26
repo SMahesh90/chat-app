@@ -27,7 +27,7 @@ public class WebSocketConfig implements WebSocketMessageBrokerConfigurer {
     @Override
     public void registerStompEndpoints(StompEndpointRegistry registry) {
         registry.addEndpoint("/ws")
-                .setAllowedOriginPatterns("https://luminous-flow-production-d83c.up.railway.app")
+                .setAllowedOriginPatterns("https://chat-app-1-ev7t.onrender.com")
                 .addInterceptors(jwtHandshakeInterceptor)
                 .setHandshakeHandler(new CustomHandshakeHandler())
                 .withSockJS();

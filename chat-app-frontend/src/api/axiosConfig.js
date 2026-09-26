@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-    baseURL: 'https://chat-app-production-2787.up.railway.app/api',
+    baseURL: 'https://chat-app-2-zx6j.onrender.com/api',
 });
 
 api.interceptors.request.use((config) => {
