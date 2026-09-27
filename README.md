@@ -1,5 +1,6 @@
 # ChatSphere  
 
+**Live Link** : https://chat-app-1-ev7t.onrender.com/
 Real-time one-on-one chat application built with Spring Boot, WebSocket (STOMP/SockJS), React, and MySQL.
 
 ---
